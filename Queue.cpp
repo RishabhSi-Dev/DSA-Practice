@@ -60,7 +60,7 @@ class Queue{
             }
         }
         if(!found){
-            cout << value << " not found!" << endl;t
+            cout << value << " not found!" << endl;
         }
     }
 };
