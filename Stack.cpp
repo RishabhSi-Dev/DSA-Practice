@@ -44,10 +44,11 @@ class Stack{
         }
         bool found = false;
         for(int i = top; i >= 0; i--){
-            if(st[i] == value)
+            if(st[i] == value){
                 cout << value << " found at position " << (top-i+1) << endl;
                 found = true;
                 break;
+            }
         }
         if(!found){
             cout << value << " not found!" << endl;
